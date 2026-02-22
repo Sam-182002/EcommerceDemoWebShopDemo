@@ -1,6 +1,8 @@
 package com.tricentis.testscript;
 
 public class BookModule {
-samprith
+public static void main(String[] args) {
+	System.out.println("hello from samprith");
+}
 }
 
