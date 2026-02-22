@@ -22,7 +22,7 @@ import com.tricentis.pom.LoginPage;
 public class BaseClass {
 	
 	public WebDriver driver;
-	public FileLib fl= new FileLib();
+	public FileLib f= new FileLib();
 	@Parameters("browser")
 	@BeforeTest
 	public void openBrowser(String browser) throws IOException {
@@ -79,4 +79,5 @@ public class BaseClass {
 
 
 }
+
 
